@@ -12,6 +12,14 @@ public final class App {
      * @param args The arguments of the program.
      */
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+
+        HashMapExample hme = new HashMapExample();
+        hme.example();
+
+        // CollectionSortExample cse = new CollectionSortExample();
+        // cse.example02();
+
+        //ConcurrentHashMapExample chme = new ConcurrentHashMapExample();
+        //chme.example();
     }
 }
